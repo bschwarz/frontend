@@ -1,0 +1,43 @@
+/*This gives spacing between image and information blocks*/
+.blockspacing {
+	margin-top: 10px;
+}
+
+/*This gives padding for the info block*/
+.infopadding {
+	padding: 10px;
+	background-color: #eee;
+}
+
+/*Italics for the facts*/
+.fact {
+	font-style: italic;
+}
+
+/*Bold for the item labels*/
+.itemlabel {
+	font-weight: bold;
+}
+
+/*Class to give borders and radius to blocks*/
+.withborder {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+}
+
+/*Makes the list bullet-less*/
+.nobullet {
+	list-style: none;
+}
+
+/*image set width*/
+.image {
+	width: 300px;
+}
+
+/*The main card*/
+.card {
+	width: 320px;
+	padding: 10px;
+	box-shadow: 6px 6px #ececec;
+}
