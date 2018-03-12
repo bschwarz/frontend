@@ -1,0 +1,30 @@
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+/*Style adapted from https://css-tricks.com/examples/hrs/*/
+hr {
+  border-width: 5px;
+  margin-top: 0;
+  border: 0;
+  height: 5px;
+  background-image: linear-gradient(to right, #ccc, #7d97ad, #ccc);
+}
+
+.logo {
+    padding-top: 25px;
+}
+
+footer {
+  color: white;
+  background-color: #7d97ad;
+  margin-top: 20px;
+}
