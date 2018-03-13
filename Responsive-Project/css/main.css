@@ -1,30 +1,54 @@
+/*------------------------------------------*/
+/* CSS for the Responsive Portfolio Project */
+/*------------------------------------------*/
+
 
 * {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
-* {
-    font-family: 'Montserrat', sans-serif;
+/*Custom font*/
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #2d3c49;
+  font-weight: 400;
 }
 
+/*Gives a gradient version of the HR*/
 /*Style adapted from https://css-tricks.com/examples/hrs/*/
 hr {
-  border-width: 5px;
+  border-width: 4px;
   margin-top: 0;
   border: 0;
-  height: 5px;
+  height: 4px;
   background-image: linear-gradient(to right, #ccc, #7d97ad, #ccc);
 }
 
+/*Just want to bring the logo down a little bit*/
 .logo {
-    padding-top: 25px;
+  padding-top: 25px;
 }
 
 footer {
   color: white;
   background-color: #7d97ad;
   margin-top: 20px;
+}
+
+/*This is for the top right name, which is a little thinner font*/
+.thin-text {
+  font-weight: 200;
+}
+
+/*For the lighter text, e.g. Featured Work*/
+.light-text {
+  color: #7d97ad;
+}
+
+/*Just some customized color*/
+p {
+  color: #2d3c49;
 }

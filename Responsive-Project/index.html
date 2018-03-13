@@ -2,84 +2,76 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <title>Responsive Web Project</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Brett Schwarz - Responsive Web Project</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <!-- <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script> -->
-    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <link href="css/main.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,400" rel="stylesheet">
+    <!-- Bootstrap JS is at bottom of the page, per bootstrap instructions -->
   </head>
+
+
   <body>
     <div class="container">
       <header class="row">
         <div class="col-md-6">
-            <img class="img-responsive" src="img/logo.gif" data-toggle="modal" data-target="#project1">
+            <img class="img-responsive logo" src="img/logo-borg9-highlight.gif" alt="Logo with initials">
         </div>
-        <div class="col-md-6">
-          <h1>Brett Schwarz</h1>
-          <h3>Front-end Ninja</h3>
+        <div class="col-md-6 text-right text-uppercase">
+          <h1 class="thin-text">Brett Schwarz</h1>
+          <h4 class="thin-text">Front-end Ninja</h4>
         </div>
       </header>
+
       <div class="row">
         <div class="col-md-12">
-          <img  width="1140" height="350" src="img/background.jpg">
+          <hr>
         </div>
       </div>
+
+
       <div class="row">
         <div class="col-md-12">
-          <h2>Featured Work</h2>
+          <img class="img-responsive" src="img/background.jpg" height="400" alt="background image of Hurricane Ridge">
         </div>
       </div>
+
       <div class="row">
-        <div class="col-md-4">
-          <img src="http://placehold.it/555x300">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="http://placehold.it/555x300">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="http://placehold.it/555x300">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
+        <div class="col-md-12">
+          <h2 class="light-text">Featured Work</h2>
         </div>
       </div>
-      <div class="row">
+
+      <!-- Section that holds the projects -->
+      <section class="row">
         <div class="col-md-4">
-          <img src="http://placehold.it/555x300">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
-        </div>
-        <div class="col-md-4">
-          <img src="http://placehold.it/555x300">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
+          <img class="img-responsive" src="img/project1.jpg" alt="First Project">
+          <h3 class="text-uppercase">project 1</h3>
+          <p><a href="https://github.com/bschwarz">Link to project</a></p>
         </div>
         <div class="col-md-4">
-          <img src="http://placehold.it/555x300">
-          <h3>Appify</h3>
-          <p><a href="http://github.com">Link to project</a></p>
+          <img class="img-responsive" src="img/project2.jpg" alt="Second Project">
+          <h3 class="text-uppercase">project 2</h3>
+          <p><a href="https://github.com/bschwarz">Link to project</a></p>
         </div>
-      </div>
-    </div>
-        <!-- Modal -->
-    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
-                </div>
-                <div class="modal-body">
-                    <img class="img-responsive" src="images/555x300.png">
-                    This was my first project in this class. I learned a lot about HTML and CSS.
-                </div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="img/project3.jpg" alt="Third Project">
+          <h3 class="text-uppercase">project 3</h3>
+          <p><a href="https://github.com/bschwarz">Link to project</a></p>
         </div>
+      </section>
+
+        <footer class="row footer">
+          <p class="col-md-6">Created by: Brett Schwarz</p>
+          <p class="col-md-6 text-right">Contact information: <a href="mailto:brett.schwarz@gmail.com">brett.schwarz@gmail.com</a></p>
+        </footer>
     </div>
 
+    <!-- Bootstrap JS, suggested to put at bottom by Bootstrap docs -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   </body>
 </html>
